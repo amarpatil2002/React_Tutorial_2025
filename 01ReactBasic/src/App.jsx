@@ -15,6 +15,8 @@ import BasicUseRef from './Hooks/UseRef/BasicUseRef'
 import Getformdata from './Hooks/UseRef/GetFormData'
 import Derivedstate from './Derivedstate'
 import StateLiftComp from './Liftingstate/StateLiftcomp'
+import Objectupdate from './Objectupdate'
+import Arrayupdate from './Arrayupdate'
 
 function App() {
 
@@ -36,7 +38,9 @@ function App() {
       {/* <BasicUseRef /> */}
       {/* <Getformdata /> */}
       {/* <Derivedstate /> */}
-      <StateLiftComp />
+      {/* <StateLiftComp /> */}
+      {/* <Objectupdate /> */}
+      <Arrayupdate />
     </>
   )
 }
