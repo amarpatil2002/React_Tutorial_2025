@@ -17,6 +17,9 @@ import Derivedstate from './Derivedstate'
 import StateLiftComp from './Liftingstate/StateLiftcomp'
 import Objectupdate from './Objectupdate'
 import Arrayupdate from './Arrayupdate'
+import UseCustomHook from './Custom_Hooks/useCustomHook'
+
+
 
 function App() {
 
@@ -40,7 +43,8 @@ function App() {
       {/* <Derivedstate /> */}
       {/* <StateLiftComp /> */}
       {/* <Objectupdate /> */}
-      <Arrayupdate />
+      {/* <Arrayupdate /> */}
+      <UseCustomHook />
     </>
   )
 }
